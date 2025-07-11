@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RKhan Art Studio</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile && window.innerWidth < window.innerHeight) {
+        alert("Rotate your phone please 📱↪️");
+      }
+    };
+  </script>
+</head>
+<body>
+  <iframe src="https://rkhanartstudio.my.canva.site/agr-1151-5-001" title="RKhan Art Studio"></iframe>
+</body>
+</html>
